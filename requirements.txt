@@ -1,0 +1,13 @@
+# --- (YOLOv8, Torch, OpenCV) ---
+ultralytics
+opencv-python
+numpy
+
+# ---  (Dlib) ---
+# cài Visual C++ Build Tools
+cmake
+dlib
+face_recognition
+
+# --- Giao diện đồ họa (GUI) ---
+customtkinter
