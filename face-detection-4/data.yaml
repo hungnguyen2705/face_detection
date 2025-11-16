@@ -1,0 +1,12 @@
+names:
+- face
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: face-detection-d2hlf
+  url: https://universe.roboflow.com/face-detection-0illn/face-detection-d2hlf/dataset/4
+  version: 4
+  workspace: face-detection-0illn
+test: C:\Users\Admin\face_detection\face-detection-4\test
+train: C:\Users\Admin\face_detection\face-detection-4\train
+val: C:\Users\Admin\face_detection\face-detection-4\valid
