@@ -1,13 +1,12 @@
-# --- (YOLOv8, Torch, OpenCV) ---
+
 ultralytics
 opencv-python
 numpy
+Pillow
 
-# ---  (Dlib) ---
-# cài Visual C++ Build Tools
+# Yêu cầu máy phải cài Visual Studio C++ Build Tools trước
 cmake
 dlib
 face_recognition
 
-# --- Giao diện đồ họa (GUI) ---
 customtkinter
