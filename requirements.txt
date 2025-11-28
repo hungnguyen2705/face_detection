@@ -1,0 +1,24 @@
+# --- Thư viện lõi AI (YOLO) ---
+# Lưu ý: Ultralytics sẽ tự động cài PyTorch bản thường (CPU).
+# Nếu muốn dùng GPU, hãy cài PyTorch GPU trước khi chạy file này.
+ultralytics
+
+# --- Xử lý ảnh & Video ---
+opencv-python
+numpy
+Pillow
+
+# --- Hỗ trợ thuật toán Tracking (ByteTrack) ---
+# lapx ổn định hơn lap trên Windows
+lapx
+scipy
+
+# (Dlib)
+# YÊU CẦU: cài Visual Studio C++ Build Tools
+cmake
+dlib
+face_recognition
+
+# --- Giao diện đồ họa & Dữ liệu ---
+customtkinter
+pandas
