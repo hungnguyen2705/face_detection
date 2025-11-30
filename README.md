@@ -103,7 +103,6 @@ Hệ thống hoạt động dựa trên sự kết hợp của 5 thuật toán c
 ### 5.4. Thuật toán Tối ưu hóa Dữ liệu (Vector Averaging)
 * **Mục đích:** Giảm nhiễu (Noise Reduction) và tăng độ ổn định.
 * **Cơ chế:** Thay vì lưu 10 vector của 10 bức ảnh chụp khác nhau, hệ thống tính trung bình cộng (Mean) của các vector này để tạo ra một "Super Vector" đại diện duy nhất cho sinh viên đó.
-* **Công thức:** $\vec{v}_{avg} = \frac{1}{N} \sum_{i=1}^{N} \vec{v}_i$
 * **Code thực tế (trong `encode_database.py`):**
     ```python
     # temp_db[unique_id] là danh sách chứa 10 vector của 1 sinh viên
